@@ -22,16 +22,16 @@
                         <a class="nav-link" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Educación</a>
+                        <a class="nav-link" href="#education">Educación</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Experiencia Académica</a>
+                        <a class="nav-link" href="#experiencia-academica">Experiencia Académica</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link">Tecnologías</a>
+                        <a class="nav-link" href="#tecnologias">Tecnologías</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link">Portafolio</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                       </li>
                     </ul>
                   </div>
@@ -62,15 +62,81 @@
                         </div>
                     </article>
                     <article class="photo">
-                        <img src="./assets/img/foto-perfil.png" alt="Foto perfil Israel Acuña">
+                        <img class="perfil-photo" src="./assets/img/foto-perfil.png" alt="Foto perfil Israel Acuña">
                     </article>
                 </div>
         </section>
     </div>
 
-    <div class="second-page">
-        <h2 style="color: black">Segunda Página</h2>
+    <div class="container second-page">
+        <article class="left-column">
+            <h2 id="education" class="second-page-title">Educación <i class="icon-second-page fa-solid fa-graduation-cap"></i></h2>
+
+            <p class="carrera"> <i class="fa-regular fa-circle fa-sm"></i> Producción Musical | 2012 a 2015</p>
+            <p class="academy-name">Instituto Profesional Inacap Perez Rosales </p>
+
+            <p class="carrera"> <i class="fa-regular fa-circle fa-sm"></i> Ingeniería en informática | 2020 a 2023</p>
+            <p class="academy-name">Instituto Profesional Duoc UC </p>
+
+            <p class="carrera"> <i class="fa-regular fa-circle fa-sm"></i> Desarrollo Full Stack Javascript | 2024 a 2025</p>
+            <p class="academy-name">Instituto Profesional Duoc UC </p>
+        </article>
+            
+        <article class="right-column">
+            <h2 id="experiencia-academica" class="second-page-title">Experiencia Académica <i class="icon-second-page fa-solid fa-school"></i></h2>
+
+            <p class="carrera"> <i class="fa-regular fa-circle fa-sm"></i> Ayudantía PL/SQL y Java</p>
+            <p class="description-carrera">He desempeñado el rol de tutor, brindando ayuda en asignaturas de Programación en Base de Datos y Java a compañeros y estudiantes que están cursando estas materias, logrando facilitar la comprensión de conceptos claves y fortaleciendo su aprendizaje</p>
+
+            <p class="carrera"> <i class="fa-regular fa-circle fa-sm"></i> Habilidades</p>
+            <p class="skills"> - Modelamiento BD - Consulta y Programación en BD (PL/SQL)</p>
+            <p class="skills"> - Lenguaje Programación Java POO</p>
+            <p class="skills"> - Gestión de Proyectos - Metodologías Tradicionales y Ágiles</p>
+        </article>
     </div>
+
+    <div class="container technology">
+        <article>
+            <h2 id="tecnologias" class="second-page-title title-technology">Tecnologías <i class="fa-solid fa-code"></i></h2>
+
+            <div class="logos">
+                <img class="logos-lenguajes" src="./assets/img/logo-html.png" alt="Logo HTML">
+                <img class="logos-lenguajes" src="./assets/img/logo-css.png" alt="Logo CSS">
+                <img class="logos-lenguajes" src="./assets/img/logo-javascript.png" alt="Logo Javascript">
+                <img class="logos-lenguajes" src="./assets/img/logo-java.png" alt="Logo Java">
+                <img class="logos-lenguajes" src="./assets/img/logo-oracle.png" alt="Logo Oracle">
+                <img class="logos-lenguajes" src="./assets/img/logo-git.png" alt="Logo Git">
+                <img class="logos-lenguajes" src="./assets/img/logo-github.png" alt="Logo Github">
+            </div>
+        </article>
+    </div>
+
+    <section class="contacto">
+        <div class="container container-contact">
+            <h2 id="contacto">Contacto</h2>
+
+            <p class="description-contact">"Si deseas obtener más información sobre mis servicios o requerir una posible colaboración, estaré encantado de atender tu consulta. No dudes en contactarme para agendar una conversación."</p>
+
+           
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+                  <input type="email" class="form-control-lg w-100" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control-lg w-100" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+
+                <button type="submit" class="btn btn-contact w-100">Enviar</button>
+            </form>
+
+
+        </div>
+
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

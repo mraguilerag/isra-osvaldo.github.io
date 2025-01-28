@@ -99,7 +99,7 @@ body {
     margin-left: 80px;
     /* border: 2px solid red; */
 }
-img {
+.perfil-photo {
     max-width: 26.875rem;
     border-radius: 50%;
 }
@@ -116,8 +116,14 @@ img {
     font-size: 1.2rem;
 }
 
+.btn-portfolio:hover {
+    color: white; 
+    background-color:#62BA1B;
+    border-color:#3F8E00;
+}
+
 .social-icons {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .icon-link {
@@ -138,6 +144,153 @@ img {
 
 .icon-link:first-child {
     margin-left: 4px;
+}
+
+/* Second Page */
+
+.second-page {
+    color:#1B1B1B;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    height: 50vh;
+}
+
+.left-column, .right-column {
+    margin-top: 30px;
+}
+.second-page-title {
+    margin-top: 30px;
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 2.2rem;
+}
+
+.icon-second-page {
+    margin-left: 8px;
+}
+
+.left-column, .right-column {
+    background-color: rgba(240, 240, 240, 0.5);
+    border-radius: 13px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.left-column {
+    margin-right: 20px; 
+}
+
+
+
+.left-column .carrera {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 50px;
+    /* font-family: "Raleway"; */
+}
+
+.right-column .carrera {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 50px;
+    /* text-align: end; */
+}
+
+.left-column .academy-name {
+    margin-top: -8px;
+    color: #626161;
+    margin-left: 27px;
+}
+
+.left-column {
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 60vh;
+}
+
+.right-column {
+    /* border: 2px solid yellow; */
+    width: 50%;
+    height: 60vh;
+}
+
+.description-carrera {
+    color: #626161;
+}
+
+/* TECHNOLOGIES */ 
+
+.technology {
+    text-align: center;
+    color:#080808;
+}
+
+.title-technology {
+    margin-top: 150px;
+}
+
+.skills {
+    line-height: 0.5rem;
+    color:#626161;
+}
+
+.logos {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.logos-lenguajes {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 80px;
+}
+
+/* Contacto */
+.contacto {
+    background-color: #080808;
+}
+
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.container-contact h2 {
+    font-family: "Raleway";
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.description-contact {
+    text-align: center;
+    color: #9C9C9C;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.btn-contact {
+    background-color: #3F8E00 ;
+    border-color: #62BA1B;
+    color: #fff;
+    border-radius: 5px;
+    font-family: "IBM Plex Mono";
+    transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+    color: white; 
+    background-color:#62BA1B;
+    border-color:#3F8E00;
 }
 
 
@@ -161,6 +314,7 @@ img {
 
     .info h1 {
         font-size: 2.5rem;
+        margin-top: 20px;
     }
 
     .info p {
@@ -181,6 +335,6 @@ img {
     .social-icons {
         margin-top: 25px;
     }
+
+
   }
-
-
