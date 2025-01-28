@@ -7,11 +7,16 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     color: #fff;
     font-family: "IBM Plex Mono";
     font-weight: 400;
     font-size: 0.875rem;
+    overflow-x: hidden;
 }
 
 .first-page {
@@ -67,8 +72,8 @@ body {
 }
 
 .info {
-    width: 638px;
-    height: 347px;
+    max-width: 638px;
+    max-height: 347px;
     margin-top: 200px;
     align-items: left;
     /* border: 2px solid red; */
@@ -86,7 +91,7 @@ body {
     line-height: 1.7rem;
     font-size: 0.875rem;
     word-spacing: 0.5rem;
-    margin-bottom: 45px;
+    margin-bottom: 2.813rem;
 }
 
 .photo { 
@@ -154,8 +159,16 @@ img {
         margin: 0;
     }
 
+    .info h1 {
+        font-size: 2.5rem;
+    }
+
     .info p {
+        font-size: 0.7rem;
         text-align: center;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        max-width: 100%;
     }
     .photo {
         order: 1;
@@ -163,6 +176,10 @@ img {
     }
     .photo img {
       max-width: 200px; /* Limita el tamaño máximo */
+    }
+
+    .social-icons {
+        margin-top: 25px;
     }
   }
 
