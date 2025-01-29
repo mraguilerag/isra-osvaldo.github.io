@@ -57,6 +57,11 @@ body {
     color: #FFF;
 }
 
+.navbar-toggler {
+    background-color: #535353;
+    border-color: #535353 ;
+}
+
 .section {
     height: 100vh;
 }
