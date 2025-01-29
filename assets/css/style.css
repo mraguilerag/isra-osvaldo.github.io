@@ -114,11 +114,15 @@ body {
     height: 63px;   
     background-color: #3F8E00 ;
     border-color: #62BA1B;
-    color: #fff;
     border-radius: 5px;
     font-family: "IBM Plex Mono";
     font-weight: 500;
     font-size: 1.2rem;
+}
+
+.btn-portfolio a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .btn-portfolio:hover {
@@ -210,6 +214,7 @@ body {
     margin-top: -8px;
     color: #626161;
     margin-left: 27px;
+    font-family: "Raleway";;
     font-size: .9rem;
 }
 
@@ -228,11 +233,13 @@ body {
 .description-carrera {
     color: #626161;
     font-size: .9rem;
+    font-family: "Raleway";
 }
 
 .skills {
     color:#626161;
     font-size: .9rem;
+    font-family: "Raleway";
 }
 
 /* TECHNOLOGIES */ 
@@ -259,6 +266,11 @@ body {
     height: 7.5rem;
     object-fit: contain;
     margin-bottom: 5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logos-lenguajes:hover {
+    transform: scale(1.2);
 }
 
 /* Contacto */
@@ -304,6 +316,24 @@ body {
     border-color:#3F8E00;
 }
 
+.footer {
+    height: 160px;
+    background-color: #1B1B1B;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer p {
+    margin-top: 50px;
+    font-family: "IBM Plex Mono";
+    font-size: 0.875rem;
+}
+
+.social-icons-footer {
+    margin-top: 5px;
+}
 
 @media (max-width: 1199px) {
     .second-page {

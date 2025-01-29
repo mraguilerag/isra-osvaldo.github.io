@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway";
+}
+
+.header {
+    background-color: #080808;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-family: "Raleway";
+    font-weight: 700;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #9C9C9C;
+    font-family: "IBM Plex Mono";
+}
+
+.card {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+
+.btn {
+    color: #fff;
+}
+
+.btn-orange {
+    background-color: #FFA217 ; 
+}
+
+.btn-orange:hover {
+    border-color: #FFA217;
+}
+
+.btn-blue {
+    background-color: #4449cc;
+}
+
+.btn-blue:hover {
+    border-color: #4449cc;
+}
+
+.btn-green {
+    background-color: #2AB090;
+}
+
+.btn-green:hover {
+    border-color: #2AB090;
+}
+
+.btn-back {  
+    width: 20rem;
+    background-color: #3F8E00 ;
+    border-color: #62BA1B;
+    color: #fff;
+    border-radius: 5px;    
+}
+
+.footer {
+    height: 160px;
+    background-color: #1B1B1B;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer p {
+    margin-top: 50px;
+    font-family: "IBM Plex Mono";
+    font-size: 0.875rem;
+}
+
+.social-icons-footer {
+    margin-top: 5px;
+}
+
+.icon-link {
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.icon {
+    color: #8f8f8f;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+
+.icon:hover {
+    transform: scale(1.2);
+    color: #FFF;
+}
+
+.icon-link:first-child {
+    margin-left: 4px;
+}
+
