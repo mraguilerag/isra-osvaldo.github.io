@@ -316,6 +316,7 @@ body {
     .left-column, .right-column {
         width: 100%;
         margin: auto;
+        margin-top: 25px;
     }
 
     .second-page-title {
