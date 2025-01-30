@@ -110,14 +110,15 @@ body {
 }
 
 .btn-portfolio {
-    width: 307.89px;
-    height: 63px;   
+    width: 19.25rem;  
+    padding: 0.813rem;
     background-color: #3F8E00 ;
     border-color: #62BA1B;
     border-radius: 5px;
     font-family: "IBM Plex Mono";
     font-weight: 500;
     font-size: 1.2rem;
+    color: #fff;
 }
 
 .btn-portfolio a {
@@ -126,9 +127,9 @@ body {
 }
 
 .btn-portfolio:hover {
-    color: white; 
     background-color:#62BA1B;
     border-color:#3F8E00;
+    color: whitesmoke;
 }
 
 .social-icons {
